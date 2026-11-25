@@ -18,17 +18,17 @@ Use relative Markdown links. Prefer extending an existing page over creating a d
 ## Evidence and accuracy
 
 - Never invent, assume, or fill gaps in concepts, definitions, examples, quotations, page numbers, or bibliographic details.
-- Read the relevant source passage before writing a claim. Cite the book and the exact page number or EPUB location when available. If location data is unavailable, say so; never guess.
+- Read the relevant source passage before writing a claim. Cite the exact page number or EPUB location when available. For PDFs, use the page number printed on the page, not the PDF viewer or file page number. For each definition, cite only the first printed page where that definition appears. Keep the book identified by the chapter file and index; do not repeat its title in each definition citation. If location data is unavailable, say so; never guess.
 - Preserve the author's meaning and scope. Keep the author's claims distinct from your own connective explanation. Label any interpretation as an interpretation and include its evidence; omit it if uncertain.
 - If text extraction is garbled, a passage is ambiguous, or a claim cannot be verified, mark it as uncertain or leave it out. Do not silently repair source text.
 - For disagreements within or between books, record each position with its own citation. Do not force a reconciliation.
-- Use direct quotations sparingly and mark them as quotations. Otherwise paraphrase faithfully.
+- When recording a definition, copy the author's exact defining sentence or passage from the source. Do not paraphrase, condense, polish, or correct the source wording. Do not add quotation marks or a Markdown blockquote marker to the copied prose. If the book does not explicitly define a term, omit it or label that limitation instead of inventing a definition. Wrap inline mathematical notation in single-dollar LaTeX delimiters and display formulas in double-dollar delimiters. Transcribe formulas into LaTeX only when the source provides them, preserving their notation and meaning.
 - Do not use web knowledge to silently supplement a book-derived page. If external research is requested, keep it clearly separated and cite it independently.
 
 ## Concision and style
 
 - Keep pages as short as the source allows. Capture only useful concepts and definitions; avoid padding, repeated explanations, and generic introductions.
-- Every book-derived definition entry in a chapter file must follow `schema/template.md`: use the concept name in place of the template's `Definition` heading, put the concise source-grounded definition below it, include a LaTeX formula only when the book provides one, and finish with the book title and verified page number/location in a blockquote. Do not emit an empty formula block when no formula exists.
+- Every book-derived definition entry in a chapter file must follow `schema/template.md`: use the concept name in place of the template's `Definition` heading, copy the concise defining passage verbatim below it without quotation marks or a blockquote marker, include a LaTeX formula only when the book provides one, and finish with only the verified page number/location in a blockquote. Do not emit an empty formula block when no formula exists.
 - Preserve the template's order and basic Markdown structure. Do not copy its example definition unless that same definition is independently found in a source book being processed.
 - Preserve technical terms as the author uses them. Do not broaden a definition beyond the cited passage.
 - Use clear headings and relative Markdown links to chapter files or sections that exist.
