@@ -74,7 +74,7 @@ A story proof is a proof by interpretation. For counting problems, this often me
 
 ## 1.6 Non-naive definition of probability
 
-#### **General definition of probability)**
+#### **General definition of probability**
 
 A probability space consists of a sample space $S$ and a probability function $P$ which takes an event $A\subseteq S$ as input and returns $P(A)$, a real number between 0 and 1, as output. The function $P$ must satisfy the following axioms:
 
