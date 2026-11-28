@@ -15,6 +15,7 @@ Let $A$ be an event for an experiment with a finite sample space $S$. The naive 
 $$
 P_{\mathrm{naive}}(A)=\frac{|A|}{|S|}=\frac{\text{number of outcomes favorable to }A}{\text{total number of outcomes in }S}.
 $$
+
 (We use $|A|$ to denote the size of A.)
 
 > page 6
@@ -83,6 +84,7 @@ A probability space consists of a sample space $S$ and a probability function $P
 $$
 P\!\left(\bigcup_{j=1}^{\infty} A_j\right)=\sum_{j=1}^{\infty}P(A_j).
 $$
+
 (Saying that these events are disjoint means that they are mutually exclusive: $A_i \cap A_j=\emptyset$ for $i\neq j$)
 
 > page 22
@@ -102,7 +104,7 @@ Probability has the following properties, for any events $A$ and $B$.
 For any events $A_1,\ldots,A_n$,
 
 $$
-P\!\left(\bigcup_{i=1}^{n}A_i\right)=\sum_iP(A_i)-\sum_{i<j}P(A_i\cap A_j)+\sum_{i<j<k}P(A_i\cap A_j\cap A_k)-\cdots+(-1)^{n+1}P(A_1\cap\cdots\cap A_n).
+P\!\left(\bigcup_{i=1}^{n}A_i\right)=\sum_{i}P(A_i)-\sum_{i<j}P(A_i\cap A_j)+\sum_{i<j<k}P(A_i\cap A_j\cap A_k)-\cdots+(-1)^{n+1}P(A_1\cap\cdots\cap A_n).
 $$
 
 > page 25
